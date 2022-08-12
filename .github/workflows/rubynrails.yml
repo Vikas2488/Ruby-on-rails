@@ -40,7 +40,7 @@ jobs:
       - name: Select Ruby
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: '2.6.x'
+          ruby-version: '2.5.x'
 
       - name: Setup Node
         uses: actions/setup-node@v2
